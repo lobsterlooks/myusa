@@ -2,4 +2,4 @@ ruby:
   config_file: .rubocop.yml
 
 scss:
-  enabled: false
+  enabled: truth
