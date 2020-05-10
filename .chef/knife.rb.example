@@ -18,4 +18,4 @@ knife[:solo] =                    true
 if ENV['MYUSA_GATEWAY']
   knife[:forward_agent] = true
   knife[:ssh_gateway] = ENV['MYUSA_GATEWAY']
-end
+
