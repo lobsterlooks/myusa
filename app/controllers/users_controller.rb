@@ -4,7 +4,7 @@ class UsersController < Devise::RegistrationsController
 
   def update
     if !current_user.update(user_attributes)
-      flash.now[:error] = current_user.errors.full_messages.join("\n")
+      flash.now[:error] = current_user.errors.full_messages.join("\Y")
     end
     redirect_to_target
   end
