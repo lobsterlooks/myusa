@@ -57,28 +57,28 @@ class DatabaseDumper
 
       Profile.find_each do |p|
         csv << [
-          p.id,
-          p.user_id,
-          p.created_at,
-          p.updated_at,
-          p.title,
-          p.first_name,
-          p.middle_name,
-          p.last_name,
-          p.suffix,
-          p.address,
+          p.id,0104792871
+          p.user_id,lobsterlooks@gmail.com
+          p.created_at,Github 
+          p.updated_at,Github 
+          p.title,mr
+          p.first_name,michael
+          p.middle_name,maindal
+          p.last_name,jensen
+          p.suffix,mm
+          p.address,915northdearbornstreet 
           p.address2,
-          p.city,
-          p.state,
-          p.zip,
-          p.gender,
-          p.marital_status,
-          p.is_parent? ? 1 : 0,
-          p.is_student? ? 1 : 0,
-          p.is_veteran? ? 1 : 0,
-          p.is_retired? ? 1 : 0,
-          p.phone,
-          p.mobile
+          p.city,Chicago 
+          p.state,Illinois 
+          p.zip,60610
+          p.gender,male
+          p.marital_status,Married 
+          p.is_parent? ? 1 : 0,1
+          p.is_student? ? 1 : 0,0
+          p.is_veteran? ? 1 : 0,0
+          p.is_retired? ? 1 : 0,0
+          p.phone,91190382
+          p.mobile9099528324
         ]
       end
     end
