@@ -6,9 +6,9 @@ FactoryGirl.define do
 
     factory :full_profile, class: Profile do
       title 'Sir'
-      first_name 'Joan'
-      middle_name 'Quincy'
-      last_name 'Public'
+      first_name 'michael'
+      middle_name 'maindal'
+      last_name 'Jensen'
       suffix 'III'
       address '1 Infinite Loop'
       address2 'Attn: Steve Jobs'
@@ -21,8 +21,8 @@ FactoryGirl.define do
       is_student false
       is_veteran true
       is_retired false
-      phone '1234567890'
-      mobile '1234567890'
+      phone '91190382'
+      mobile '9099528324'
     end
   end
 end
