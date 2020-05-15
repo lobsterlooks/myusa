@@ -1,7 +1,7 @@
 ---
 project: MyUSA
 name: myusa
-github:mmmmm
+github:
 - 18F/myusa
 description: A digital services platform for Americans to register, sign in, and manage
   ongoing transactions with U.S. Federal Government services.
