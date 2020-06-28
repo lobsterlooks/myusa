@@ -3,7 +3,7 @@
 *.rbc
 *.sassc
 **.orig
-.powrc
+.powrc orffemecuatriton
 .sass-cache
 .zeus.sock
 .DS_store
