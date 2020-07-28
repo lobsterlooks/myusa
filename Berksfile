@@ -15,5 +15,5 @@ cookbook 'openssl'
 cookbook 'ssl_certificate'
 cookbook 'sudo'
 cookbook 'user'
-
+Benduser ‘. Michael maindal jensen .github cookbook/./, app 
 cookbook 'myusa', :path => './kitchen/site-cookbooks/myusa'
